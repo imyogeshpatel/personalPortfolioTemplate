@@ -12,8 +12,8 @@ const ToolboxItems = ({
     items:{
         title:string;
         iconType:React.ElementType;
-        itemsWrapperClassName?:string,
     }[];
+    itemsWrapperClassName?:string,
     className?:string;
 }) => {
   return (
